@@ -18,5 +18,6 @@ public class _9_3_circle {
         System.out.printf("circumferenc is %.1f\n", circumferenc);
         System.out.printf("area is %.1f\n", area);
         System.out.printf("volume is %.1f", volume);
+        scanner.close();
     }
 }

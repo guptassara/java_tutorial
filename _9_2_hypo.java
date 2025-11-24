@@ -16,5 +16,6 @@ public class _9_2_hypo {
         base = scanner.nextInt();
         hypotaneous = Math.sqrt(Math.pow(height, 2) + Math.pow(base, 2));
         System.out.println("Hypotaneous is " + hypotaneous);
+        scanner.close();
     }
 }

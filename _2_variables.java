@@ -39,19 +39,18 @@ public class _2_variables {
         System.out.println("Grade is: " + grade);
         char symbol = '₹';
         System.out.println(symbol);
-        char emo = '🌞';
+        char emo = '!';
         System.out.println(emo);
 
         boolean isStudent = true;
         boolean forSale = false;
-        boolean isOnline= true;
+        boolean isOnline = true;
         System.out.println(isStudent);
         System.out.println(forSale);
         System.out.println(isOnline);
-        if(isStudent){
+        if (isStudent) {
             System.out.println("You are a student");
-        }
-        else{
+        } else {
             System.out.println("You are not a student");
         }
 
@@ -67,20 +66,19 @@ public class _2_variables {
         System.out.println("You are " + age + " years old");
         System.out.println("Your cgpa is " + cgpa);
         System.out.println("Your grade is " + grade);
-        if(isStudent){
+        System.out.println("Your email is " + email);
+        if (isStudent) {
             System.out.println("You are a student");
-        }
-        else{
+        } else {
             System.out.println("You are not a student");
         }
 
-        System.out.println("Your choice is a " + colour +" " + year + " " + car);
+        System.out.println("Your choice is a " + colour + " " + year + " " + car);
         System.out.println("The price is: " + currency + price);
-        if(forSale){
+        if (forSale) {
             System.out.println(car + " is for sale");
-        }
-        else{
-            System.out.println(car+ " is not for sale");
+        } else {
+            System.out.println(car + " is not for sale");
         }
 
     }

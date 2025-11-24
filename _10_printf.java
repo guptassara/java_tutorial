@@ -11,14 +11,13 @@ public class _10_printf {
         double height = 164;
         boolean isEmployed = true;
         System.out.printf(
-            "Hello %s. Your name starts with %c. You are %d years old. You are %.2f cm tall. Emplyee status is %b \n",
-            name,
-            firstLetter,
-            age,
-            height,
-            isEmployed
-        );
-        //precision
+                "Hello %s. Your name starts with %c. You are %d years old. You are %.2f cm tall. Emplyee status is %b \n",
+                name,
+                firstLetter,
+                age,
+                height,
+                isEmployed);
+        // precision
         double price1 = 9.980934988099;
         double price2 = 10.9;
         double price3 = -99.8327;
@@ -26,7 +25,7 @@ public class _10_printf {
         System.out.printf("%.3f\n", price2);
         System.out.printf("%f\n", price3);
 
-        //flags
+        // flags
 
         // + = output a plus
         // , = comma grouping seperator
@@ -40,8 +39,9 @@ public class _10_printf {
         System.out.printf("% .3f\n", price5);
         System.out.printf("%+f\n", price6);
         System.out.printf("%(.2f\n", price6);
+        System.out.printf("%((.2f\n", price7);
 
-        //[width]
+        // [width]
         // 0 = zero padding
         // number = right justified padding
         // negative number = left justified padding
