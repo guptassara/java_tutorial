@@ -25,5 +25,13 @@ public class _5_operators {
         System.out.println(x);
         x %= y;
         System.out.println(x);
+        x++;
+        System.out.println(x);
+        x--;
+        System.out.println(x);
+
+        // order of operators [P-E-N-D-A-S]
+        double result = 3 + (4 * (7 - 5)) / 2.0;
+        System.out.println(result);
     }
 }

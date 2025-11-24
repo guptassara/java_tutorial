@@ -14,8 +14,7 @@ public class _3_2_area_calculator {
         int choice;
         Scanner scanner = new Scanner(System.in);
         System.out.print(
-            "Choose the shape for area: \n1. Rectangle\n2. Square\n3. Triangle\n4. Circle\n"
-        );
+                "Choose the shape for area: \n1. Rectangle\n2. Square\n3. Triangle\n4. Circle\n");
         choice = scanner.nextInt();
 
         if (choice == 1) {
