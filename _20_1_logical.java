@@ -1,4 +1,4 @@
-public class _20_logical {
+public class _20_1_logical {
 
     public static void main(String[] args) {
         // && = AND
